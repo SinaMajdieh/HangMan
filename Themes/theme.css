@@ -1,0 +1,96 @@
+.radius{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: white;
+    
+}
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: 5% 0 0 0;
+    border-radius: 20px;
+    padding: 20px;
+}
+.input{
+    /* border-radius: 10px; */
+    padding : 5px;
+    
+}
+
+#input1{
+    margin: 0% 0% 0% 1%;
+}
+
+.button{
+    background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+#box1{
+    margin: 5% 0 0 0;
+}
+#box2{
+    display: none;
+    margin: 5%;
+}
+.image{
+    width: 50%;
+    height: auto;
+}
+.key{
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+    
+}
+
+.key:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.key:hover {
+    background-color: #3e8e41
+}
+
+#win{
+    background-color: #80ff80;
+    padding: 15px;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20%;
+    border-radius: 3px;
+    display: none;
+
+}
+
+#lose{
+    background-color: #f34b4b;
+    padding: 15px;
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20%;
+    border-radius: 3px;
+    display: none;
+    
+}

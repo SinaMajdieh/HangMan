@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="Themes/theme.css"> 
+</head>
+<title>Hang Man Game</title>
+<body>
+
+<center><img class="image" src="Images/hangman.png"></center>
+
+<center>
+        
+        <div id="box1">
+                <img src="Images/hangman1.jpg" style="width: 10%; height: auto;">
+                <div style="width: 30%;">
+                        <h4 style="text-align: left; display: inline-block; margin-right: 1%;">Chose word </h4>
+                        <input class="input" id="input1" type="number" style="width:10%" >
+                </div>
+                
+                <button class="button" onclick="getTheword()">Continue</button>
+        </div>
+        <div id="box2">
+                
+                <div >
+                       
+                        <div style="display : inline-block;">
+                                <center>
+                                        <h1 id="word" style="color: green;"></h1>
+                                        <h1 id="wrong" style="color: red;">
+                                </center>
+                                
+                        </div>
+                        
+                </h1>
+                </div>
+                
+                <div id="win">WIN !</div>
+                <div id="lose">LOSE !</div>
+
+        </div>
+        <div style="margin : 5%; display: none;" id="keyboard">
+                <div style="margin: 2%;">
+                        <button class="key" onclick="check(this)">Q</button>
+                        <button class="key" onclick="check(this)">E</button>
+                        <button class="key" onclick="check(this)">E</button>
+                        <button class="key" onclick="check(this)">R</button>
+                        <button class="key" onclick="check(this)">W</button>
+                        <button class="key" onclick="check(this)">T</button>
+                        <button class="key" onclick="check(this)">Y</button>
+                        <button class="key" onclick="check(this)">U</button>
+                        <button class="key" onclick="check(this)">I</button>
+                        <button class="key" onclick="check(this)">O</button>
+                        <button class="key" onclick="check(this)">P</button>
+                </div>
+                <div style="margin: 2%;">
+                        <button class="key" onclick="check(this)">A</button>
+                        <button class="key" onclick="check(this)">S</button>
+                        <button class="key" onclick="check(this)">D</button>
+                        <button class="key" onclick="check(this)">F</button>
+                        <button class="key" onclick="check(this)">G</button>
+                        <button class="key" onclick="check(this)">H</button>
+                        <button class="key" onclick="check(this)">J</button>
+                        <button class="key" onclick="check(this)">K</button>
+                        <button class="key" onclick="check(this)">L</button>
+                        
+                </div>
+                <div style="margin: 2%;">
+                        <button class="key" onclick="check(this)">Z</button>
+                        <button class="key" onclick="check(this)">X</button>
+                        <button class="key" onclick="check(this)">C</button>
+                        <button class="key" onclick="check(this)">V</button>
+                        <button class="key" onclick="check(this)">B</button>
+                        <button class="key" onclick="check(this)">N</button>
+                        <button class="key" onclick="check(this)">M</button>
+                        
+                        
+                </div>
+        </div>
+</center>
+<script type="text/javascript" src="Scripts/code.js"></script>
+</body>
+
+</html>
